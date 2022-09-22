@@ -2,7 +2,7 @@
 
 - Excel Ledger
 - Ledger Commander
-  - [Download] (https://scutumsoft.github.io/Ledger-Commander/published/setup.exe)
+  - [Download](https://scutumsoft.github.io/Ledger-Commander/published/setup.exe)
   - [*https://scutumsoft.blogspot.com/ Documentation (a Google account is needed for commenting)]
   - [http://scutumsoft.wikidot.com/ Public Wiki (a WikiDot account is needed for editing)]
   - [*https://www.youtube.com/channel/UCWpriwzG_wCetA7RqthbhOQ YouTube channel]
