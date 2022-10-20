@@ -1,6 +1,5 @@
 # Ledger-Commander Links
 
-- test
 - Excel Ledger
 - Ledger Commander
   - [Download](https://scutumsoft.github.io/Ledger-Commander/published/setup.exe)
