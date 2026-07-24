@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="LedgerCommander.exe" version="4.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="LedgerCommander.exe" version="4.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="Resources\lc_5G6_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -942,7 +942,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>lbBlAj+zF/+w0pD3g8+HqfJX2TlPnODhjrI1Ig6+uL0=</dsig:DigestValue>
+      <dsig:DigestValue>Kn7rWychedIoyKLmObooIF7T3tTzkr2ee4u2Q1o54zw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="hu-HU\LedgerCommander.Domain.resources.dll" size="4096">
@@ -969,7 +969,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>TvtZ0l0p0hAUfIIbliC03mzYBzpf5L+JCdUYQ52CbTs=</dsig:DigestValue>
+      <dsig:DigestValue>QDz4KU0lreciid7tWM2jGO68nSm8YcKRhCzSEdNdHgo=</dsig:DigestValue>
     </hash>
   </file>
   <file name="hu\Xceed.Wpf.AvalonDock.resources.dll" size="6144">
