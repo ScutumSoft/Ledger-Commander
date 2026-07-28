@@ -10,15 +10,12 @@
       "LedgerCommander/1.0.0": {
         "dependencies": {
           "AutoMapper": "16.2.0",
-          "CommunityToolkit.Mvvm": "8.4.2",
-          "Extended.Wpf.Toolkit": "5.1.2",
-          "LedgerCommander.Service": "1.0.0",
+          "LedgerCommander.Presentation": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.10",
           "Microsoft.EntityFrameworkCore": "10.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.10",
           "Serilog": "4.4.0",
-          "Serilog.AspNetCore": "10.0.0",
-          "Supabase": "1.3.0"
+          "Serilog.AspNetCore": "10.0.0"
         },
         "runtime": {
           "LedgerCommander.dll": {}
@@ -913,6 +910,31 @@
           }
         }
       },
+      "LedgerCommander.Presentation/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "16.2.0",
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Extended.Wpf.Toolkit": "5.1.2",
+          "LedgerCommander.Service": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.10",
+          "Microsoft.EntityFrameworkCore": "10.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.10",
+          "Serilog": "4.4.0",
+          "Serilog.AspNetCore": "10.0.0",
+          "Supabase": "1.3.0"
+        },
+        "runtime": {
+          "LedgerCommander.Presentation.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "resources": {
+          "hu-HU/LedgerCommander.Presentation.resources.dll": {
+            "locale": "hu-HU"
+          }
+        }
+      },
       "LedgerCommander.Service/1.0.0": {
         "dependencies": {
           "AutoMapper": "16.2.0",
@@ -1452,6 +1474,11 @@
       "sha512": ""
     },
     "LedgerCommander.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LedgerCommander.Presentation/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
