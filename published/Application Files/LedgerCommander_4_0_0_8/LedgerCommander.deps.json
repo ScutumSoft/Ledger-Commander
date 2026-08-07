@@ -10,7 +10,9 @@
       "LedgerCommander/1.0.0": {
         "dependencies": {
           "AutoMapper": "16.2.0",
-          "LedgerCommander.Presentation": "1.0.0",
+          "LedgerCommander.Presentation.Core": "1.0.0",
+          "LedgerCommander.Presentation.FrequentlyChanged": "1.0.0",
+          "LedgerCommander.Presentation.RarelyChanged": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.10",
           "Microsoft.EntityFrameworkCore": "10.0.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "10.0.10",
@@ -910,7 +912,7 @@
           }
         }
       },
-      "LedgerCommander.Presentation/1.0.0": {
+      "LedgerCommander.Presentation.Core/1.0.0": {
         "dependencies": {
           "AutoMapper": "16.2.0",
           "CommunityToolkit.Mvvm": "8.4.2",
@@ -924,13 +926,57 @@
           "Supabase": "1.3.0"
         },
         "runtime": {
-          "LedgerCommander.Presentation.dll": {
+          "LedgerCommander.Presentation.Core.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         },
         "resources": {
-          "hu-HU/LedgerCommander.Presentation.resources.dll": {
+          "hu-HU/LedgerCommander.Presentation.Core.resources.dll": {
+            "locale": "hu-HU"
+          }
+        }
+      },
+      "LedgerCommander.Presentation.FrequentlyChanged/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "16.2.0",
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Extended.Wpf.Toolkit": "5.1.2",
+          "LedgerCommander.Presentation.Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "10.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.10"
+        },
+        "runtime": {
+          "LedgerCommander.Presentation.FrequentlyChanged.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "resources": {
+          "hu-HU/LedgerCommander.Presentation.FrequentlyChanged.resources.dll": {
+            "locale": "hu-HU"
+          }
+        }
+      },
+      "LedgerCommander.Presentation.RarelyChanged/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "16.2.0",
+          "CommunityToolkit.Mvvm": "8.4.2",
+          "Extended.Wpf.Toolkit": "5.1.2",
+          "LedgerCommander.Presentation.Core": "1.0.0",
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "10.0.10",
+          "Microsoft.EntityFrameworkCore": "10.0.10",
+          "Microsoft.EntityFrameworkCore.SqlServer": "10.0.10",
+          "Supabase": "1.3.0"
+        },
+        "runtime": {
+          "LedgerCommander.Presentation.RarelyChanged.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "resources": {
+          "hu-HU/LedgerCommander.Presentation.RarelyChanged.resources.dll": {
             "locale": "hu-HU"
           }
         }
@@ -1478,7 +1524,17 @@
       "serviceable": false,
       "sha512": ""
     },
-    "LedgerCommander.Presentation/1.0.0": {
+    "LedgerCommander.Presentation.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LedgerCommander.Presentation.FrequentlyChanged/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LedgerCommander.Presentation.RarelyChanged/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

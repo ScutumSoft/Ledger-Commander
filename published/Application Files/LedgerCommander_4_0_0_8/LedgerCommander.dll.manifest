@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="LedgerCommander.exe" version="4.0.0.7" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="LedgerCommander.exe" version="4.0.0.8" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <description asmv2:iconFile="Resources\lc_5G6_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
@@ -144,13 +144,13 @@
       <dsig:DigestValue>8GUVKYTHSlcSOaXa3uclh+Ave/qe2hhID7RTTzlyV0Y=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="HecklHelper.dll" size="194048">
+  <file name="HecklHelper.dll" size="194560">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>25+Y3eoPlKVHyafp1KUsK+WTywR+/DhM+x0MGr0KUTo=</dsig:DigestValue>
+      <dsig:DigestValue>/ekIAQ6NA6CRMD+EUIYAmrdDkrp59WgMX9N3BomOWsQ=</dsig:DigestValue>
     </hash>
   </file>
   <file name="HtmlAgilityPack.dll" size="171008">
@@ -189,49 +189,67 @@
       <dsig:DigestValue>x/yGTxUyFrcTKBuebsE3ELdti/C4P1Uyz6Gz+0U/D/0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="LedgerCommander.Domain.dll" size="137728">
+  <file name="LedgerCommander.Domain.dll" size="138240">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>zQOgRizHXg5gpVXLp0k305CZgBhYLrCUjzfce0AysmA=</dsig:DigestValue>
+      <dsig:DigestValue>h/SMHUVTo3yy6XRrZkXuO8Nnrs0JHi2Wg0JDNmt6eQw=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="LedgerCommander.Presentation.dll" size="1355776">
+  <file name="LedgerCommander.Presentation.Core.dll" size="324608">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>cxqY2BO2MWQaJj5eoth3NRJy6FzaR6NEF2lFLbGX2YE=</dsig:DigestValue>
+      <dsig:DigestValue>nN7yJubnU9swabkUjh+QIEynareRxOXvHBFmHhhUT6A=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="LedgerCommander.Service.dll" size="1348608">
+  <file name="LedgerCommander.Presentation.FrequentlyChanged.dll" size="623616">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>8QAz1X6eQumusg4f4ReV4FM5FjRTKO2Zm0gVvXJPShQ=</dsig:DigestValue>
+      <dsig:DigestValue>gcak33TdPGAl5g+XQ1WxnMJJ+iFdm6S8/s5PEROsjn8=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="LedgerCommander.deps.json" size="54630">
+  <file name="LedgerCommander.Presentation.RarelyChanged.dll" size="391168">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>XG099jXygp8EsrL/25vzem2V9XA4TRbtUUUCBRAVeTI=</dsig:DigestValue>
+      <dsig:DigestValue>V5ZCSzMoRH6b4h0fy9g0WdDij1VkaqSUglH303pclUE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="LedgerCommander.dll" size="716288">
+  <file name="LedgerCommander.Service.dll" size="1366528">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>w1yo73cUMOKPTA1JSLBqbdqnVkOOoYi281SuIz1foZI=</dsig:DigestValue>
+      <dsig:DigestValue>Ay2O6pPkNSGTx4bDslPl97r4I6EVnG1A94Cq9TI+APQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LedgerCommander.deps.json" size="56716">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>n8jJWfvsc4kDh7GLN/YXN7HYh2c9SiO4AQWWW6+CIbI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="LedgerCommander.dll" size="791552">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kKIHoJ3Sedc+xDaYGcrIUf0E5s6acQij1igTC2rF0Pk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="LedgerCommander.exe" size="493056">
@@ -951,7 +969,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>fVF1t+wxlajaXAVAM8jHDGYmJ8nlfcancIxs947tOIs=</dsig:DigestValue>
+      <dsig:DigestValue>HBXhOjrlfcWL3vuI64dPfiH9L5iWG9rC3ujyB68z7Vw=</dsig:DigestValue>
     </hash>
   </file>
   <file name="hu-HU\LedgerCommander.Domain.resources.dll" size="4096">
@@ -960,25 +978,43 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>pBTxzram6PyMX2QeEsVdZEGRQmBIEVNcudmyQPYOL9o=</dsig:DigestValue>
+      <dsig:DigestValue>zXUtE1qrcnKLzvsbF7wZPVYDaZD3PfxPyIqSIBCQQ8Y=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="hu-HU\LedgerCommander.Presentation.resources.dll" size="119296">
+  <file name="hu-HU\LedgerCommander.Presentation.Core.resources.dll" size="37376">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>4yTGNl94YhuPVfTwuFGs5+fadxeMmQhKVncOw3oVvfw=</dsig:DigestValue>
+      <dsig:DigestValue>Eq5ymLP5wRm3uFH4iVDyMqB/Qt69I5DywmHKwqG7H/0=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="hu-HU\LedgerCommander.Service.resources.dll" size="10752">
+  <file name="hu-HU\LedgerCommander.Presentation.FrequentlyChanged.resources.dll" size="71680">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>HlVfyvZklxViV2q3sgKvrN+Bs0U9s/tSsRBePnZ9z/0=</dsig:DigestValue>
+      <dsig:DigestValue>5QBl1MoYkHf2cooTrAiGu9BkOvcLB0xkGiyHbcKVKKg=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="hu-HU\LedgerCommander.Presentation.RarelyChanged.resources.dll" size="34304">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8j4y19ViOwtHWEQqKICSMSogsMKtObqu+H6gj3QFyTw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="hu-HU\LedgerCommander.Service.resources.dll" size="13824">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gDbGsPUDorGU+dF7taH6gi/bLriQwRDIs7yU6jzKcjA=</dsig:DigestValue>
     </hash>
   </file>
   <file name="hu-HU\LedgerCommander.resources.dll" size="5120">
@@ -987,7 +1023,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>vZs5K23UIoerbTCRSxjxjjSEuD7uZVlIjSvw47qWI9Q=</dsig:DigestValue>
+      <dsig:DigestValue>Grdki+WqXmJjsewo7ngq6+tXDRcNVDG3ot/WLIFjE+M=</dsig:DigestValue>
     </hash>
   </file>
   <file name="hu\Xceed.Wpf.AvalonDock.resources.dll" size="6144">
